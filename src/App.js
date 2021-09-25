@@ -14,15 +14,8 @@ function App() {
     .then(res => res.json())
     .then(result => {
       setQuery('');
-    console.log(result[0].name.common);
-    console.log(result[0].capital[0]);
-    console.log(result[0].region);
-    console.log(result[0].subregion);
-    console.log(result[0].flags[0])
-    console.log(result[0].borders)
-
+    
      setResults(result);
-      // setShow('0')
       setShow('1')
 
   })
